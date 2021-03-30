@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:iconTint="#3f3f3f"
+            android:id="@+id/nav_items"
+            android:icon="@drawable/ic_shopping_bag"
+            android:title="מוצרים" />
+        <item
+            android:iconTint="#3f3f3f"
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="סל קניות" />
+        <item
+            android:iconTint="#3f3f3f"
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_telephone"
+            android:title="צור קשר" />
+        <item
+
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout__1_"
+            android:title="התנתק" />
+    </group>
+</menu>

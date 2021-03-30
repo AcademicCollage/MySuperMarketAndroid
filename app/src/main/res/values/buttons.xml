@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttons">
+
+        <item name="android:background">
+            @drawable/corner_radius
+        </item>
+        <item name="android:textSize">
+            15sp
+        </item>
+        <item name="android:textStyle">
+            bold
+        </item>
+
+
+
+    </style>
+</resources>
