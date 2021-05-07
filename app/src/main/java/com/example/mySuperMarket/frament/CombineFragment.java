@@ -43,7 +43,6 @@ import static com.example.mySuperMarket.Utils.ITEMS_TYPE;
 public class CombineFragment extends Fragment {
     private float totalSumOfItems=0;
     private int totalItems=0;
-
     private ArrayList<Item> cartItemsArrayList=new ArrayList<>();
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private SharedPreferences sharedPreferences;
